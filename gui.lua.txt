@@ -20,9 +20,9 @@ getgenv().killButton = { gun = false, knife = false }
 getgenv().killLoop = { gun = false, knife = false }
 
 local Window = Windui:CreateWindow({
-	Title = "[Open Source] MVSD Script",
+	Title = "Manthan's MVSD Script",
 	Icon = "square-function",
-	Author = "by Le Honk",
+	Author = "by Manthan",
 	Folder = "MVSD_Graphics",
 	Size = UDim2.fromOffset(260, 280),
 	Transparent = true,
@@ -496,22 +496,13 @@ local Credits = Window:Tab({
 })
 
 local gooseCredit = Credits:Paragraph({
-	Title = "Goose",
-	Desc = "The script developer, rewrote everything from scratch",
+	Title = "Manthan",
+	Desc = "The script developer, made this for his friends :)",
 })
 
 local nyxCredit = Credits:Paragraph({
-	Title = "Nyx",
-	Desc = "The guy behind Evelynn Hub, motivated me by committing crimes against humanity",
-	Buttons = {
-		{
-			Icon = "message-circle-dashed",
-			Title = "Join His Discord",
-			Callback = function()
-				setclipboard("https://discord.gg/GU64Aenm8D")
-			end,
-		},
-	},
-})
+	Title = "Marvelous",
+	Desc = "His name on the internet. ",
+}) 
 
 Window:SelectTab(1)
